@@ -694,7 +694,8 @@ enp0s31f6  lo  wlp2s0
 ```
 dns相关的`nslookup`和`dig`  , 测试ssl连接的`openssl client`    
 dns配置常用的有systemd-resolved,Networkmanager,dnsmasq。推荐资料  
-[systemd-resolved](https://wiki.archlinux.org/title/Systemd-resolved),（https://www.freedesktop.org/software/systemd/man/latest/resolved.conf.html）  
+[systemd-resolved](https://wiki.archlinux.org/title/Systemd-resolved)  
+[system-resolved](https://www.freedesktop.org/software/systemd/man/latest/resolved.conf.html)  
 [Networkmanager](https://wiki.archlinux.org/title/NetworkManager)  
 [dnsmasq](https://wiki.archlinux.org/title/Dnsmasq)  
 感觉使用默认的systemd-resolved或者Networkmanager是比较简单的，当然注意有些代理软件会劫持dns，关闭代理后需要刷新本地dns服务器缓存。  
