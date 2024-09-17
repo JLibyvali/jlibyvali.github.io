@@ -312,8 +312,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["c/cpp", "linux", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["system"]  # custom add category
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["system" ,"external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
