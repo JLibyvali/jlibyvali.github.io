@@ -27,5 +27,3 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
-
-gem 'uglifier', '>= 4.2.0'

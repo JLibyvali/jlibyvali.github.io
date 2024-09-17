@@ -279,7 +279,6 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jemoji
   mini_racer
-  uglifier (>= 4.2.0)
   unicode_utils
   webrick
 
