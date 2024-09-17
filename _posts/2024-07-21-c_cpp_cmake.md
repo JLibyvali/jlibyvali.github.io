@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: C CPP Cmake generic configuration
-date: 2024-07-21 12:10:00-0100
+date: 2024-07-21 12:10:00
 description: some cmake  normal configuration to c/cpp project
 tags: c/cpp code
 categories: 

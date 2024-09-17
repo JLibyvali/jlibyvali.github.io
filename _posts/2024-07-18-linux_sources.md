@@ -1,18 +1,14 @@
 ﻿---
 layout: post
-title: Linux general tools
-date: 2024-07-18 13:30:00-0100
-description: introduce several linux tools
-tags: linux
-categories: system
+title: C CPP VSCode configuration
+date: 2024-08-12 11:34:00
+description: record common vscode configuration
+tags: c/cpp code
 featured: true
 toc:
-   beginning: true
-   sidebar: left
+  beginning: true
+  sidebar: left
 ---
-
-
----  
 
 首先我们了解一下系统中需要查询的基本资源信息，比如查看系统的`硬件资源状态`,`进程状态`,`内存使用`,`cpu使用`,`服务状态`,`端口状态`。  
 常用工具一般有实时的和非实时的。在紧密监视系统进程变化时，实时的工具对我们非常有用。 
