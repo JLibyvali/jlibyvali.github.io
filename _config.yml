@@ -169,12 +169,18 @@ related_blog_posts:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+  - name: os-dev
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: https://wiki.osdev.org/Expanded_Main_Page
+        published_date: 2023-12-23
+  - name: mit6.828
+    posts:
+      - url: https://pdos.csail.mit.edu/6.828/2018/schedule.html
+        published_date: 2022-07-18
+  - name: ipads-courses
+    posts:
+      - url: https://ipads.se.sjtu.edu.cn/pub/courses
+        published_date: 2023-05-11
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -305,7 +311,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["linux", "code"] # these tags will be displayed on the front page of your blog
+display_tags: ["c/cpp", "linux", "code"] # these tags will be displayed on the front page of your blog
+display_categories: ["system"]  # custom add category
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
