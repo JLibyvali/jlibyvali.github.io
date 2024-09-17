@@ -9,7 +9,6 @@ group :jekyll_plugins do
     gem 'jekyll-imagemagick'
     gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes'
-    gem 'uglifier', '>= 4.2.0'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
@@ -28,3 +27,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem 'uglifier', '>= 4.2.0'
