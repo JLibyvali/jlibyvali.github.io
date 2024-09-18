@@ -4,11 +4,10 @@ title: C CPP VSCode configuration
 date: 2024-08-12 11:34:00
 description: record common vscode configuration
 tags: c/cpp code
-categories: 
 featured: true
 toc:
-   beginning: true
-   sidebar: left
+  beginning: true
+  sidebar: left
 ---
 
 

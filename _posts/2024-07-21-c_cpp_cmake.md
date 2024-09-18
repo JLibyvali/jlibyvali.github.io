@@ -7,8 +7,8 @@ tags: c/cpp code
 categories: 
 featured: false
 toc:
-   beginning: true
-   sidebar: left
+  beginning: true
+  sidebar: left
 ---
 
 
