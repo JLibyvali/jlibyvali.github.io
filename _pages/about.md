@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Wang</a>. Zentrum. <bottom@gmail.com>. Motto🤔. Etc.
+subtitle: <a href='#'>Wang</a>. Zentrum. bottom@gmail.com. Motto🤔. Etc.
 
 profile:
   align: right
