@@ -11,8 +11,6 @@ toc:
 
 
 # I.
----  
-
 分享下很常用的项目构建工具`cmake`,`cmake`的脚本编写还是很庞杂的，不过一般用的多的就是固定的一些语句。官方也有Tutorial。  
 建议掌握基本构建语句后，随写随查。  
 > ***CMake variable***: [https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)   
@@ -55,7 +53,6 @@ int main(int argc, char* argv[]){
 ```
 ``` 
 tmp/ 
-
 mkdir build 
 cmake .. 
 cmake --build . --parallel <jobs num, like  ' make -j N'>
