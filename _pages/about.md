@@ -16,8 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-
-Just a broken guy. 
-
+Here is Jlibyvali Blog, I'm working for OS-related development. Maybe Linux driver about, interesting in ESL(Electronic System Level) Modelling further.
 
 
+***" Just a broken guy, a few screws loose i guess, never really knew it until know. "***
