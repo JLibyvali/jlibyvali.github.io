@@ -2,14 +2,14 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Wang</a>. Zentrum. <bottom@gmail.com>. Motto🤔. Etc.
 
 profile:
   align: right
   image: cyber.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>🤔Your City, State 12345</p>
+    <p>🤔Bern, Switzerland</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
