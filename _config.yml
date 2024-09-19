@@ -120,12 +120,14 @@ contact_note: >
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-# google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-# cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+google_analytics: G-15DF4WW95V # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cronitor_analytics: a0e446488daaed90d1c939ef358fa4b4 # cronitor RUM analytics site ID (format: XXXXXXXXX)
 # pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
-# # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-# google_site_verification: # your google-site-verification ID (Google Search Console)
+# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+google_site_verification: GVPkGz5sp8TF5HIgM709jCehvcUAvLW_uL-eBXsAI6U # your google-site-verification ID (Google Search Console)
+# <meta name="google-site-verification" content="GVPkGz5sp8TF5HIgM709jCehvcUAvLW_uL-eBXsAI6U" />
+
 # bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
