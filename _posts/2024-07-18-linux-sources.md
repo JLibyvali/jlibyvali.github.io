@@ -691,10 +691,10 @@ enp0s31f6  lo  wlp2s0
 ```
 dns相关的`nslookup`和`dig` ,测试ssl连接的`openssl client`    
 dns配置常用的有systemd-resolved,Networkmanager,dnsmasq。**推荐资料**:  
-[https://wiki.archlinux.org/title/Systemd-resolved](https://wiki.archlinux.org/title/Systemd-resolved)
-[https://www.freedesktop.org/software/systemd/man/latest/resolved.conf.html](https://www.freedesktop.org/software/systemd/man/latest/resolved.conf.html)
-[https://wiki.archlinux.org/title/NetworkManager](https://wiki.archlinux.org/title/NetworkManager)
-[https://wiki.archlinux.org/title/Dnsmasq](https://wiki.archlinux.org/title/Dnsmasq)
+<https://wiki.archlinux.org/title/Systemd-resolved>
+<https://www.freedesktop.org/software/systemd/man/latest/resolved.conf.html>
+<https://wiki.archlinux.org/title/NetworkManager>
+<https://wiki.archlinux.org/title/Dnsmasq>
 
 感觉使用默认的systemd-resolved或者Networkmanager是比较简单的，当然注意有些代理软件会劫持dns，关闭代理后需要刷新本地dns服务器缓存。  
 然后是防火墙的Debian/Ubuntu常用ufw。其他的firewall-cmd,还有手动的iptables
@@ -1094,12 +1094,12 @@ fuser -v /mnt/*
 `localectl`用于控制当前的区域，语言设置。 
 `hostnamectl`用于显示，设置当前机器的主机名字。  
 还有用户程序相关的配置文件，程序数据存放路径有关的`XDG env`系列： 
-**https://specifications.freedesktop.org/basedir-spec/latest/**  
+**<https://specifications.freedesktop.org/basedir-spec/latest>**  
 
 
 > 内容文字较多，难免遗漏、出错，欢迎斧正  
  
 #  参考资料
-* [System monitoring utilities](https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/cha-util.html)
-* [System log files](https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/cha-tuning-syslog.html)
-* [Kernel monitoring](https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/part-tuning-kerneltrace.html)
+* <https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/cha-util.html>
+* <https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/cha-tuning-syslog.html>
+* <https://doc.opensuse.org/documentation/leap/tuning/html/book-tuning/part-tuning-kerneltrace.html>
