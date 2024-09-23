@@ -3,7 +3,7 @@ layout: post
 title: Linux resources manage tools
 date: 2024-07-18 15:53:00-0400
 description: record common vscode configuration
-tags: c/cpp code
+tags: linux
 categories: system
 featured: true
 toc:
