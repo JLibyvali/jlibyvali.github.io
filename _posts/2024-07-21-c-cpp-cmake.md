@@ -2,7 +2,7 @@
 layout: post
 title: C CPP Cmake generic configuration
 date: 2024-07-21 12:10:00-0400
-description: some cmake  normal configuration to c/cpp project
+description: some cmake configurationscs
 tags: c/cpp code
 toc:
   beginning: true
@@ -149,7 +149,6 @@ argument ::=  bracket_argument | quoted_argument | unquoted_argument
 * 可以使用双引号“”分割，就是完全保留字面量
 * 可以什么都不加，空格分割 ， 这样变量就无法保留一些符号比如#,(),[],<>等  
 # III. More
---- 
 下面是常用配置 
 ##  Variable
 `cmake`主要的变量就三种  
@@ -419,16 +418,3 @@ add_custom_target(generate_table_csv DEPENDS table.csv)
 ```
 
 这样编译后，执行`generate_table_csv`就会输出CSV文件了。  
-
-
-
-
-
-
-
-
-
-
-
-
-
