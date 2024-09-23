@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: JLibyvali
+first_name: Wang
 middle_name: 
-last_name: 
-email: ibyvali.line@gmail.com
+last_name: Libero
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: avatar.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jlibyvali.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -126,7 +126,7 @@ cronitor_analytics: a0e446488daaed90d1c939ef358fa4b4 # cronitor RUM analytics si
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: GVPkGz5sp8TF5HIgM709jCehvcUAvLW_uL-eBXsAI6U # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -199,14 +199,14 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -320,7 +320,7 @@ display_categories: ["system", "external-services"] # these categories will be d
 
 scholar:
   last_name: [JLibyvali]
-  first_name: [W.]
+  first_name: [Wang.]
 
   style: apa
   locale: en
@@ -346,7 +346,7 @@ scholar:
 # No ANY scholar results
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
-# enable_publication_badges:
+enable_publication_badges:
   altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
@@ -436,13 +436,13 @@ enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: true # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_google_verification: true # enables google site verification
-enable_bing_verification: true # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
+enable_bing_verification: false # enables bing site verification
+enable_masonry: false # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
+enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
@@ -646,7 +646,7 @@ jsonresume:
   - work
   - education
   - publications
-  - projects
+  # - projects
   - volunteer
   - awards
   - certificates

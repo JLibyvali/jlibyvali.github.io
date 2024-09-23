@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Wang</a>. Zentrum. bottom@gmail.com. Motto🤔. Etc.
+subtitle: <a href='#'>Libero Wang</a>. in Zentrum. Motto 🤔. Etc.
 
 profile:
   align: right
@@ -16,7 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Here is Jlibyvali Blog, I'm working for OS-related development. Maybe Linux driver about, interesting in ESL(Electronic System Level) Modelling further.
+
+Welcome to the JLibyvali Blog! I focus on OS development, mainly around Linux drivers. I'm also interested in diving deeper into ESL (Electronic System Level) modeling and processor microarchitecture development.😉😉😉  
 
 
-***" Just a broken guy, a few screws loose i guess, never really knew it until know. "***
+<!-- <span style="color: grey;">" Just a broken guy, a few screws loose i guess, never really knew it until know. "</span>   -->
