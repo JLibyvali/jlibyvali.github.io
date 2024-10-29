@@ -113,7 +113,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # zotero_username: # your zotero username
 
 contact_note: >
-  not too much contact way. 😇😇😇
+  non too much contact details. 😇😇😇
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -133,7 +133,7 @@ google_site_verification: GVPkGz5sp8TF5HIgM709jCehvcUAvLW_uL-eBXsAI6U # your goo
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: a simple blog recording my development
+blog_description: Some blog recording my development
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
