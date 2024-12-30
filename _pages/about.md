@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Ribero Wang</a>. in Zentrum. Motto 🤔. Etc.
+subtitle: <a href='#'>JLibyvali .dev </a>. in Zentrum. Motto 🤔. Etc.
 
 profile:
   align: right
