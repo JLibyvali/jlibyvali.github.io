@@ -3,7 +3,7 @@ layout: post
 title: Opensuse Network Configuration
 date: 2023-12-10 11:40:10-0400
 description: recording the common NetworkManger configuration
-tags: linux
+tags: network
 category: system
 ---
 

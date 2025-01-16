@@ -173,10 +173,6 @@ external_sources:
     posts:
       - url: https://wiki.osdev.org/Expanded_Main_Page
         published_date: 2023-12-23
-  - name: mit6.828
-    posts:
-      - url: https://pdos.csail.mit.edu/6.828/2018/schedule.html
-        published_date: 2022-07-18
   - name: ipads-courses
     posts:
       - url: https://ipads.se.sjtu.edu.cn/pub/courses
@@ -220,6 +216,8 @@ latest_posts:
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
+kramdown.syntax_highlighter_opts.block.line_numbers: true
+
 markdown: kramdown
 highlighter: rouge
 kramdown:
