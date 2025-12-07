@@ -32,5 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_brach: pages`
+          publish_branch: pages
           force_orphan: true # Force clear the publish branch commit history clean.
