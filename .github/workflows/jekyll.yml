@@ -1,0 +1,56 @@
+name: Build and Deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:  # Enable manually triggering the workflow
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          
+      - name: 2. Setup Jekyll and install Dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.4
+          bundler-cache: true
+
+      - name: 3. Build Jekyll site
+        run:  |
+          bundle exec jekyll build 
+        env: 
+          JEKYLL_ENV: production
+      
+      - name: 4. Upload build site artifact to GitHub Pages 
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+  
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
