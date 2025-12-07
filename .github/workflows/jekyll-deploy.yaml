@@ -4,33 +4,33 @@ on:
   push:
     branches:
       - master
-    workflow_dispatch:  # Enable manually triggering the workflow
+  workflow_dispatch:  # Enable manually triggering the workflow
   
 jobs:
   jekyll_build:
     runs-on: ubuntu-latest
     steps:
-      -name: 1. Checkout Repository
-      uses: actions/checkout@v5
-      with:
-        fetch_depth: 0
+      - name: 1. Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          fetch_depth: 0
+          
+      - name: 2. Setup Jekyll and install Dependencies
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.3.4
+          bundler-cache: true
 
-      -name: 2. Setup Jekyll and install Dependencies
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 3.3.4
-        bundler-cache: true
-
-      -name: 3. Build Jekyll site
-      run:  |
-        bundle exec jekyll build 
-      env: 
-        JEKYLL_ENV: production
+      - name: 3. Build Jekyll site
+        run:  |
+          bundle exec jekyll build 
+        env: 
+          JEKYLL_ENV: production
       
-      -name: 4. Deploy the built site to 'pages' branch 
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        publish_brach: pages
-        force_orphan: true # Force clear the publish branch commit history clean.
+      - name: 4. Deploy the built site to 'pages' branch 
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_brach: pages
+          force_orphan: true # Force clear the publish branch commit history clean.
