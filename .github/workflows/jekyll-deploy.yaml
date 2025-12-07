@@ -18,7 +18,7 @@ jobs:
       - name: 2. Setup Jekyll and install Dependencies
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 3.3.4
+          ruby-version: 3.3
           bundler-cache: true
 
       - name: 3. Build Jekyll site
